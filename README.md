@@ -23,7 +23,31 @@ Hardware Requirements
 *   **Breadboard and Jumper Wires**: For connections.
 
 ### Pin Connections
+ Component             | ESP32 Pin       |          
+|-----------------------|-----------------|
+| **SD Card Module**     |                 |
+| GND                   | GND             |
+| VCC                   | VIN (5V)        |
+| MISO                  | D19             |
+| MOSI                  | D23             |
+| SCK                   | D18             |
+| CS                    | D5              |
 
+ Component             | ESP32 Pin       |          
+|-----------------------|-----------------|
+| **INMP441 Microphone** |                 |
+| GND                   | GND             |
+| VDD                   | 3.3V            |
+| SD                    | D35             |
+| SCK                   | D33             |
+| WS                    | D22             |
+| L/R                   | 3.3V (Right channel) |
+
+ Component             | ESP32 Pin       |  
+ |-----------------------|-----------------|
+| **Tactile Button**    |                 |
+| One leg               | D26             |
+| Other leg             | GND             |
 
 Installation
 ------------
@@ -92,13 +116,14 @@ The library (lib_audio_recording.ino) allows customization:
 *   **Sample Rate**: Adjust SAMPLE\_RATE (e.g., 16000, 44100 Hz) for audio quality vs. file size.    
 *   **Bit Depth**: Set BITS\_PER\_SAMPLE (8 or 16) for file size vs. fidelity.    
 *   **Gain Boost**: Modify GAIN\_BOOSTER\_I2S (1–64) to amplify the microphone signal.    
-*   **I2S Channel**: Change I2S\_SLOT\_MASK (I2S\_STD\_SLOT\_RIGHT or I2S\_STD\_SLOT\_LEFT) based on L/R pin wiring.    
+*   **I2S Channel**: Change I2S\_SLOT\_MASK (I2S\_STD\_SLOT\_RIGHT or I2S\_STD\_SLOT\_LEFT) based on L/R pin wiring.
+     
 Future Work
 -----------
 *   **File Management**: Add options to delete or rename WAV files via additional buttons or Serial commands.
 *   **Recording Modes**: Implement timed recordings or continuous recording with auto-split into multiple files.
 *   **OLED Display**: Integrate a display to show recording status, file number, and duration.
-*     
+*        
 Troubleshooting
 ---------------
 *   **No Audio in WAV Files**:
