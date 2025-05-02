@@ -126,8 +126,8 @@ Future Work
 *   **File Management**: Add options to delete or rename WAV files via additional buttons or Serial commands.
 *   **Recording Modes**: Implement timed recordings or continuous recording with auto-split into multiple files.
 *   **OLED Display**: Integrate a display to show recording status, file number, and duration.
-*        
-Troubleshooting
+*  **Into a product**       
+ 
 ---------------
 *   **No Audio in WAV Files**:
     *   Verify INMP441 wiring (especially L/R to 3.3V for right channel).
