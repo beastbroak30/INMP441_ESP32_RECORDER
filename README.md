@@ -1,6 +1,8 @@
 # INMP441_ESP32_RECORDER
 
 This project implements an audio recording system on a 30-pin ESP32 (e.g., ESP32-WROOM-32) using an INMP441 I2S microphone, an SD card module, and a tactile button. Recordings are saved as WAV files on the SD card with incremental filenames (audio1.wav, audio2.wav, etc.). The system uses a custom library for I2S audio processing and supports configurable sample rates (e.g., 44100 Hz) and bit depths (e.g., 16-bit).
+# Find the latest codes and changes in [VERSION_LATEST](https://github.com/beastbroak30/INMP441_ESP32_RECORDER/tree/main/VERSIONS_LATEST) of this repo
+## You need the lib always so copy it there on your working folder
 
 Features
 --------
@@ -21,6 +23,7 @@ Hardware Requirements
 *   **Tactile Button**: To start/stop recording.
 *   **LED**: Uses the inbuilt LED in GPIO2 (not required) 
 *   **Breadboard and Jumper Wires**: For connections.
+*   **OLED** : For the latest versions
 
 ### Pin Connections
  Component             | ESP32 Pin       |          
