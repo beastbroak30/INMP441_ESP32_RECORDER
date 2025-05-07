@@ -30,7 +30,7 @@ Hardware Requirements
 |-----------------------|-----------------|
 | **SD Card Module**     |                 |
 | GND                   | GND             |
-| VCC                   | VIN (5V)        |
+| VCC                   | VIN (3V3)        |
 | MISO                  | D19             |
 | MOSI                  | D23             |
 | SCK                   | D18             |
