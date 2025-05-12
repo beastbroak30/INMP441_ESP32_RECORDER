@@ -63,8 +63,7 @@
 
 // --- global vars -------------
 
-// [std_cfg]: KALO I2S_std configuration for I2S Input device (Microphone INMP441), detailed definitions (without macros)
-// Details see: 'i2s_std.h' 
+
 
 i2s_std_config_t  std_cfg = 
 { .clk_cfg  =   // instead of macro 'I2S_STD_CLK_DEFAULT_CONFIG(SAMPLE_RATE),'
