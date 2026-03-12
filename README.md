@@ -123,9 +123,9 @@ The library (lib_audio_recording.ino) allows customization:
      
 Future Work
 -----------
-*   **File Management**: Add options to delete or rename WAV files via additional buttons or Serial commands.
-*   **Recording Modes**: Implement timed recordings or continuous recording with auto-split into multiple files.
-*   **OLED Display**: Integrate a display to show recording status, file number, and duration.
+*   ~~**File Management**: Add options to delete or rename WAV files via additional buttons or Serial commands.~~
+*   ~~**Recording Modes**: Implement timed recordings or continuous recording with auto-split into multiple files.~~
+*   ~~**OLED Display**: Integrate a display to show recording status, file number, and duration.~~
 *  **Into a product**       
  
 ---------------
